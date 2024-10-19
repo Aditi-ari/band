@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticks Symphony</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet"> <!-- Link to Cinzel font -->
+    <style>
+        body {
+            font-family: 'Cinzel', serif; /* Using Cinzel font */
+            background-color: #800000; /* Dark maroon */
+            color: white; /* Text color changed to white */
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: auto;
+            width: 80%;
+        }
+        img {
+            max-width: 200px; /* Set a specific width for the image */
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #ffcc00; /* Gold color for the main heading */
+        }
+        h2 {
+            color: #ffcc00; /* Gold color for subheadings */
+        }
+        .flex-container {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between text and image */
+            align-items: center; /* Align items vertically */
+            margin: 20px 0;
+        }
+        .text {
+            flex: 1; /* Allow text to take available space */
+            text-align: left; /* Align text to the left */
+        }
+        .next-button {
+            background-color: #ffcc00; /* Gold color for the button */
+            color: #800000; /* Dark maroon text */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none; /* Remove underline */
+        }
+        .next-button:hover {
+            background-color: #e6b800; /* Darker gold on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>THE STICK SYMPHONY</h1>
+    
+    <div class="flex-container">
+        <div class="text">
+            <h2>Majestic Stick</h2>
+            <p>
+                Majestic sticks are ceremonial instruments often used in parades, festivals, and performances. They are typically ornate and can be made from various materials, including wood and metal, featuring intricate designs and embellishments.
+            </p>
+            <h3>Functionality:</h3>
+            <p>
+                Majestic sticks serve not only as performance tools but also as symbols of authority and tradition. They can be twirled and manipulated to enhance choreography and add visual interest to performances. Their presence elevates the overall spectacle, making them a centerpiece in many cultural celebrations.
+            </p>
+        </div>
+        <img src="bandstick.jpg" alt="Majestic Stick" />
+    </div>
+
+    <a href="trumphet.html">
+        <button class="next-button">Next</button>
+    </a>
+</div>
+
+</body>
+</html>

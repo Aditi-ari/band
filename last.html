@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticks Symphony</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet"> <!-- Link to Cinzel font -->
+    <style>
+        body {
+            font-family: 'Cinzel', serif; /* Using Cinzel font */
+            background-color: #800000; /* Dark maroon */
+            color: white; /* Text color changed to white */
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: auto;
+            width: 80%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #ffcc00; /* Gold color for the main heading */
+        }
+        h2 {
+            color: #ffcc00; /* Gold color for subheadings */
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .text {
+            flex: 1; /* Allow text to take available space */
+        }
+        /* New styles for bottom image section */
+        .bottom-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .bottom-images img {
+            width: 200px;
+            margin: 0 20px;
+            border-radius: 10px;
+        }
+        /* Specific styling for the first image to increase its height */
+        .bottom-images img:first-child {
+            height: 300px; /* Set a fixed height for the first image */
+            width: auto; /* Let the width adjust based on the aspect ratio */
+        }
+        /* Styles for the back button */
+        .back-button {
+            background-color: #ffcc00; /* Gold color */
+            color: #800000; /* Dark maroon */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block; /* Make it behave like a button */
+        }
+        .back-button:hover {
+            background-color: #e6b800; /* Darker gold on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>THE STICK SYMPHONY</h1>
+    
+    <div class="flex-container">
+        <div class="text">
+            <h2>The School Band</h2>
+            <p>
+                The school band serves as a cornerstone of community and belonging among students, fostering essential life skills such as teamwork, time management, and self-discipline. Our ensemble, comprising instruments like bass drums, side drums, bugles, cymbals, flutes, cornets, and trumpets, collaborates to create a rich and harmonious sound that resonates throughout the school.
+            </p>
+            <p>
+                Donned in our uniforms, we take immense pride in our musical contributions, which punctuate morning assemblies, prayers, and celebratory events. Our repertoire encompasses both traditional and devotional pieces, showcasing our versatility and ability to adapt to various occasions.
+            </p>
+            <p>
+                As we extend a warm welcome to esteemed guests, our band honors them with a formal VIP call and general salute, underscoring our commitment to respect and school spirit. More than merely a marching ensemble, our band embodies leadership, creativity, and a vibrant school culture, making us proud participants in this dynamic community.
+            </p>
+        </div>
+    </div>
+
+    <!-- New bottom image section -->
+    <div class="bottom-images">
+        <img src="bandgrp.jpg" alt="Image 1 Description">
+        <img src="ins.jpg" alt="Image 2 Description">
+    </div>
+
+    <!-- Back Button -->
+    <a href="first.html" class="back-button">Back</a>
+
+</div>
+
+</body>
+</html>
